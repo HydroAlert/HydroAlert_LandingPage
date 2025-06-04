@@ -4,6 +4,12 @@
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -244,15 +250,14 @@ section {
 }
 
 #diaAdia-sectoin {
+  margin-left: 100px;
   display: flex;
-  justify-content: center;
   align-items: flex-start;
 }
 
 .container-diaAdia {
     width: 90%;
     padding: 30px;
-    box-sizing: border-box;
 }
 
 .container-diaAdia h1 {
@@ -274,6 +279,7 @@ section {
 .text-column p {
     line-height: 1.6;
     margin-bottom: 8px;
+    margin-left: 30px;
 }
 
 .image-column {
@@ -334,4 +340,5 @@ footer {
   color: #fff;
   flex: 1;
   min-width: 300px;
+  padding: 40px;
 }
