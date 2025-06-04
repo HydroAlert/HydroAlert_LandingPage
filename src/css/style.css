@@ -11,7 +11,7 @@ a {
 .logo { 
   font-size: 24px;
   text-transform: uppercase;
-
+  
 }
 
 nav {
@@ -21,12 +21,6 @@ nav {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #23232e;
   height: 8vh;
-}
-
-main {
-  background: url("bg.jpg") no-repeat center center;
-  background-size: cover;
-  height: 92vh;
 }
 
 .nav-list {
@@ -91,6 +85,34 @@ main {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+section{
+  color: #fff;
+  background-color: #23232e;
+}
+
+.secaoCenter {
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  padding: 20px;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.secaoCenter > p {
+  margin: auto  ;
+  padding: 20px;
+  height: 100px;
+  width: 70%;
+}
+
+.secaoCenter > img {
+  margin: auto  ;
+  padding: 4blo0px;
+  height: 500px;
+  width: 900px;
+  border-radius: 40px;
 }
 
 footer {
