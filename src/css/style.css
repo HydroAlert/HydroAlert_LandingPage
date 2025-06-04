@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -22,7 +23,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #23232e;
   height: 8vh;
 }
@@ -91,9 +91,6 @@ nav {
   }
 }
 
-main {
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-}
 
 section {
   color: #fff;
@@ -179,9 +176,8 @@ section {
 }
 
 .container-PA {
-    width: 100%;
-    padding: 20px;
-    border-radius: 10px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .container-PA h1 {
@@ -209,6 +205,40 @@ section {
 .pessoa-card p {
   max-width: calc(100% - 60px);
 }
+
+.beneficios-section h1 {
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.beneficios-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 30px;
+  margin-left: 20%;
+}
+
+.beneficio-item {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 33%;
+}
+
+.beneficio-item h3 {
+  color: black;
+}
+
+.beneficio-item p {
+  color: #23232e;
+}
+
 
 footer {
   background-color: #23232e;
