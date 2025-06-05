@@ -59,13 +59,11 @@ nav {
 .nav-list {
   list-style: none;
   display: flex;
-  color: #fff;
 }
 
 .nav-list li {
   letter-spacing: 3px;
   margin-left: 32px;
-  color: #fff;
 }
 
 .mobile-menu {
@@ -490,7 +488,7 @@ footer {
 }
 
 .textArea {
-  color: #fff;
+  color: black;
   margin-bottom: 15px;
   margin-top: 10px;
   padding: 8px;
@@ -518,6 +516,7 @@ footer {
   text-align: center;
   padding: 20px;
   text-align: left;
+  display: flex;
 }
 
 #formulario {
@@ -575,4 +574,12 @@ body {
 
 .slider {
   margin-top: 50px;
+}
+
+.contatoRodape {
+  margin-left: 170px;
+}
+
+#logosRodape img{
+  margin-left: 10px;
 }
