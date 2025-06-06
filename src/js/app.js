@@ -168,9 +168,21 @@ form.addEventListener("submit", function (event) {
   if (numeroValue === "") {
     erroNumero.textContent = "Por favor, preencha o número.";
     valido = false;
-  } else if (isNaN(numeroValue)) {
-    erroNumero.textContent = "Número inválido. Use apenas números.";
+  } else if (
+    numeroValue.length < 10 ||
+    numeroValue.length > 11 ||
+    !numeroValue.split("").every((digito) => digito >= "0" && digito <= "9")
+    /*
+    Para cada digito (caractere da string), 
+    ele verifica se está entre '0' e '9'.
+     */
+  ) {
+    erroNumero.textContent =
+      "Número inválido. Use apenas números e inclua o DDD.";
     valido = false;
+  } else {
+    erroNumero.textContent = "";
+    valido = true;
   }
 
   if (sugestaoValue === "") {
