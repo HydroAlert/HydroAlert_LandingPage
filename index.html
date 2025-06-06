@@ -37,7 +37,7 @@
             <button class="theme-icon light" data-theme="light">☀️</button>
             <button class="theme-icon dark" data-theme="dark">🌙</button>
             <button class="theme-icon accessibility" data-theme="accessibility">
-              ♿
+              👓
             </button>
           </div>
         </li>
@@ -49,7 +49,7 @@
         <button class="theme-icon light" data-theme="light">☀️</button>
         <button class="theme-icon dark" data-theme="dark">🌙</button>
         <button class="theme-icon accessibility" data-theme="accessibility">
-          ♿
+          👓
         </button>
       </div>
     </nav>
@@ -205,7 +205,6 @@
           id="mundoPerfeitoImg"
         />
       </section>
-
       <section id="publico-alvo-section">
         <div class="container-PA">
           <h1>Público-Alvo</h1>
@@ -305,7 +304,6 @@
 
         <section id="diaAdia-section">
           <div class="container-diaAdia">
-            
             <div class="content-wrapper">
               <div class="text-column">
                 <h1>Dia a Dia</h1>
@@ -335,6 +333,17 @@
                   alt="evacuacao enchente"
                 />
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="quiz-section">
+          <div class="secaoCenter">
+            <h1>Quiz Hydro Alert</h1>
+            <div id="quiz-container">
+              <div id="quiz-questions"></div>
+              <button id="submit-quiz" class="botaoForms">Enviar</button>
+              <div id="quiz-results"></div>
             </div>
           </div>
         </section>
@@ -428,19 +437,35 @@
       </div>
 
       <div id="formulario">
-        <form>
+        <form id="form">
           <h3>Deixe sua sugestão</h3>
           <br />
+
           <label for="nome">Nome:</label><br />
           <input type="text" id="nome" name="nome" class="textArea" /><br />
+          <div id="erroNome" class="erro-msg"></div>
 
-          <label for="contato">Contato:</label><br />
-          <input type="text" name="contato" class="textArea" /><br />
+          <label for="numero">Número:</label><br />
+          <input
+            type="text"
+            id="numero"
+            name="contato"
+            class="textArea"
+          /><br />
+          <div id="erroNumero" class="erro-msg"></div>
 
           <label for="sugestao">Sugestão:</label><br />
-          <textarea name="sugestao" rows="5" class="textArea"></textarea><br />
+          <textarea
+            id="sugestao"
+            name="sugestao"
+            rows="5"
+            class="textArea"
+          ></textarea
+          ><br />
+          <div id="erroSugestao" class="erro-msg"></div>
 
           <button type="submit" class="botaoForms">Enviar</button>
+          <div id="mensagemFinal"></div>
         </form>
       </div>
     </footer>
