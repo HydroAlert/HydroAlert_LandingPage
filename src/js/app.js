@@ -343,17 +343,26 @@ function renderQuiz() {
 function submitQuiz() {
   let score = 0;
   const totalQuestions = quizQuestions.length;
+  let answeredCount = 0;
 
   quizQuestions.forEach((q, index) => {
     const selectedOption = document.querySelector(
       `input[name="question${index}"]:checked`
     );
     if (selectedOption) {
+      answeredCount++;
       if (selectedOption.value === q.answer) {
         score++;
       }
     }
   });
+
+  // Verifica se todas as perguntas foram respondidas
+  if (answeredCount < totalQuestions) {
+    alert("Por favor, responda todas as perguntas antes de enviar o quiz.");
+    return;
+  }
+
   displayQuizResults(score, totalQuestions);
 }
 
