@@ -19,7 +19,7 @@
   </head>
   <body>
     <nav>
-      <a class="logo" href="/">HYDRO ALERT</a>
+      <a class="logo" href="index.html">HYDRO ALERT</a>
       <div class="mobile-menu">
         <div class="line1"></div>
         <div class="line2"></div>
@@ -59,22 +59,11 @@
         <div class="secaoCenter">
           <h1>Solução</h1>
           <p>
-            A solução consiste em um sistema inteligente de monitoramento e
-            alerta de enchentes, que utiliza dados em tempo real de sensores,
-            serviços meteorológicos e inteligência artificial para prever
-            situações de risco. O sistema monitora continuamente o nível dos
-            rios, volume de chuva e outros indicadores ambientais, aplicando
-            modelos preditivos para identificar a possibilidade de enchentes com
-            antecedência. Quando um risco elevado é identificado, o sistema gera
-            alertas automáticos e personalizados, enviados diretamente por
-            Telegram e WhatsApp. Além do aviso sobre o risco, o sistema é capaz
-            de sugerir rotas de fuga seguras, considerando as áreas afetadas,
-            mapas de risco e dados em tempo real sobre o avanço da enchente.
-            Essas rotas são otimizadas para garantir que os usuários possam
-            evacuar de forma rápida e segura, evitando regiões alagadas ou vias
-            comprometidas. A solução também oferece uma interface visual para
-            acompanhamento em tempo real, onde é possível visualizar sensores,
-            previsão, status das áreas e os alertas ativos.
+            Este sistema monitora e alerta sobre enchentes com sensores e IA.
+            Ele prevê riscos usando dados de rios e chuvas. Alertas automáticos
+            são enviados por Telegram e WhatsApp. O sistema sugere rotas de fuga
+            seguras, otimizadas para evacuação rápida. Uma interface visual
+            permite acompanhar em tempo real sensores, previsões e alertas.
           </p>
 
           <div class="slider">
@@ -84,15 +73,24 @@
               <input type="radio" name="radio-btn" id="radio3" />
 
               <div class="slide first">
-                <img src="src/assets/imgs/fundoBody.jpg" alt="" />
+                <img
+                  src="src/assets/imgs/menino na enchente.jpg"
+                  alt="menino na enchente"
+                />
               </div>
 
               <div class="slide">
-                <img src="src/assets/imgs/perfectWorld.png" alt="trocar" />
+                <img
+                  src="src/assets/imgs/fundoBody.jpg"
+                  alt="pessoas em rua alagada"
+                />
               </div>
 
               <div class="slide">
-                <img src="src/assets/imgs/ponto seguro.png" alt="trocar" />
+                <img
+                  src="src/assets/imgs/ciade em enchente.jpg"
+                  alt="cidade em enchente"
+                />
               </div>
             </div>
 
@@ -109,75 +107,54 @@
         <div class="secaoCenter">
           <h1>Tecnologias</h1>
           <p>
-            No desenvolvimento do projeto de prevenção e alerta de enchentes,
-            utilizamos diversas tecnologias de hardware e software para garantir
-            um monitoramento eficiente e a emissão rápida de alertas. Em relação
-            ao hardware, foram empregados sensores fundamentais para a coleta de
-            dados ambientais essenciais. O sensor ultrassônico foi utilizado
-            para medir o nível da água, possibilitando a detecção precoce de
-            enchentes. Complementando essa medição, o sensor DHT22 monitorava a
-            temperatura e a umidade do ambiente, fornecendo informações
-            importantes sobre as condições climáticas que podem influenciar o
-            risco de enchentes. Para a sinalização de alertas, foram
-            incorporados buzzer e LEDs, que emitem sinais sonoros e visuais,
-            respectivamente, indicando os diferentes níveis de alerta, como
-            observação, atenção e emergência. Além disso, displays LCD e de 7
-            segmentos foram usados para exibir informações em tempo real, como o
-            nível da água e o status do sistema, facilitando o acompanhamento
-            imediato da situação. No aspecto do software, o projeto contou com o
-            uso da linguagem Python para implementar a lógica de monitoramento
-            dos sensores, gerenciar usuários cadastrados e gerar alertas
-            automáticos de acordo com os dados coletados. O sistema inclui um
-            menu interativo em linha de comando que permite o cadastro e a
-            gestão dos sensores e usuários, além da ativação dos sensores para a
-            captura dos valores atuais. A integração dessas tecnologias
-            possibilita uma resposta rápida e organizada diante de situações de
-            risco, contribuindo para a segurança das populações vulneráveis às
-            enchentes.
+            Para prevenir enchentes, usamos hardware como sensores ultrassônicos
+            para nível da água e DHT22 para temperatura/umidade. Buzzers e LEDs
+            sinalizam alertas sonoros e visuais. Softwares com Python gerenciam
+            sensores e usuários. Um menu interativo permite configurar o sistema
+            e ativar sensores para dados em tempo real, garantindo segurança.
           </p>
         </div>
 
         <div class="image-container">
           <div class="item-image">
             <img
-              src="src/assets/imgs/fundo arduino.png"
-              alt="imagem teste"
+              src="src/assets/imgs/previsao com ia.png"
+              alt="previsao do tempo com IA"
             /><br />
-            <h3>Arduino</h3>
+            <h3>Inteligência Artificial</h3>
             <p>
-              Sistema de alerta para enchentes que monitora o nível da água com
-              sensor ultrassônico e mede temperatura e umidade com sensor DHT22.
-              Exibe informações com o display LCD e uma contagem regressiva de 2
-              minutos com o display de 7 segmentos, acionando LEDs e buzzer para
-              alertar sobre riscos moderados e altos, ajudando na prevenção de
-              desastres.
+              A Hydro Alert IA pode prever enchentes analisando dados históricos
+              e em tempo real, como níveis de rios, chuvas e condições do solo.
+              Isso permite alertas antecipados e melhor prevenção de desastres,
+              protegendo vidas e propriedades.
             </p>
           </div>
 
           <div class="item-image">
             <img
-              src="src/assets/imgs/homem enchente.png"
-              alt="imagem teste"
+              src="src/assets/imgs/previsao com sensores.png"
+              alt="previsao de enchente com sensores"
             /><br />
-            <h3>Python</h3>
+            <h3>Sensores</h3>
             <p>
-              O código é um sistema de monitoramento HydroAlert que permite
-              cadastrar usuários e sensores, definir níveis de alerta e gerar
-              alertas automáticos ou manuais com base nos valores dos sensores,
-              tudo via menu interativo no terminal.
+              Sensores físicos como ultrassônicos (nível da água), DHT22
+              (temperatura/umidade) e pluviômetros monitoram o ambiente. Seus
+              dados são cruciais para prever enchentes e emitir alertas
+              precisos, protegendo comunidades.
             </p>
           </div>
 
           <div class="item-image">
             <img
-              src="src/assets/imgs/ponto seguro.png"
-              alt="imagem teste"
+              src="src/assets/imgs/integracao api.png"
+              alt="sistema de integração de API's"
             /><br />
-            <h3>título</h3>
+            <h3>API's</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
-              consectetur expedita ad dolor! A minus sequi explicabo perferendis
-              nulla ipsam.
+              A previsão do tempo aprimorada integra múltiplas APIs, combinando
+              dados de diversas fontes para maior precisão. Isso oferece
+              informações detalhadas sobre temperatura, umidade e chuvas,
+              crucial para o planejamento e a segurança.
             </p>
           </div>
         </div>
@@ -192,79 +169,39 @@
             <li>
               <h3>Prevenção de Desastres</h3>
               <p>
-                A solução visa fornecer alertas antecipados e precisos para
-                minimizar os impactos das enchentes em áreas vulneráveis, usando
-                dados em tempo real de sensores ambientais e modelos preditivos
-                baseados em IA. Isso permite que comunidades e autoridades se
-                preparem com antecedência, evitando perdas materiais e humanas.
-                Além disso, o sistema sugere rotas de fuga seguras, otimizadas
-                para evacuação rápida, contribuindo para a proteção em situações
-                críticas.
+                Essa solução oferece alertas precisos de enchentes usando
+                sensores e IA para prever riscos. Ela ajuda comunidades a se
+                prepararem antecipadamente, evitando perdas e sugerindo rotas de
+                fuga seguras.
               </p>
             </li>
 
             <li>
               <h3>Monitoramento Contínuo</h3>
               <p>
-                O sistema realiza coleta constante e automatizada de dados
-                ambientais, como níveis dos rios, volume de chuva e condições
-                atmosféricas, garantindo análise precisa e atualizada. Essa
-                vigilância contínua identifica rapidamente qualquer aumento do
-                risco de enchente e permite respostas imediatas, seja pela
-                população, órgãos de defesa civil ou equipes de emergência. A
-                integração dos sensores com uma plataforma digital possibilita
-                acompanhamento em tempo real, com alertas dinâmicos e dashboards
-                intuitivos.
+                Este sistema coleta dados ambientais automaticamente (níveis de
+                rios, chuva, clima) para monitorar e prever enchentes. Ele
+                identifica riscos rapidamente, permitindo respostas imediatas e
+                fornecendo alertas em tempo real através de uma plataforma
+                digital.
               </p>
             </li>
 
             <li>
               <h3>Facilidade de Acesso</h3>
               <p>
-                A solução foi desenvolvida para ser acessível e fácil de
-                instalar, inclusive em comunidades remotas frequentemente mais
-                afetadas pelas enchentes. A interface do sistema é simples e
-                intuitiva, permitindo que usuários comuns façam cadastro e
-                recebam alertas personalizados via WhatsApp e Telegram, sem
-                necessidade de equipamentos sofisticados ou conhecimentos
-                técnicos avançados. A usabilidade garante que a maior parte da
-                população possa se beneficiar, fortalecendo a proteção coletiva.
-              </p>
-            </li>
-
-            <li>
-              <h3>Engajamento Comunitário</h3>
-              <p>
-                Para potencializar o impacto, o sistema incentiva a participação
-                ativa da população, promovendo engajamento comunitário na
-                prevenção e resposta a enchentes. Isso ocorre por meio de
-                notificações claras e orientações práticas, além de permitir que
-                usuários atualizem seus dados e recebam alertas específicos para
-                suas regiões. A colaboração entre cidadãos, órgãos públicos e
-                defesa civil é fortalecida pela comunicação integrada e
-                transparência, contribuindo para cultura de prevenção e
-                resiliência.
-              </p>
-            </li>
-
-            <li>
-              <h3>Integração Tecnológica</h3>
-              <p>
-                O sistema combina tecnologias como sensores ambientais,
-                inteligência artificial, sistemas de alerta via aplicativos de
-                mensagens e plataformas digitais interativas, formando uma rede
-                eficiente de monitoramento e comunicação. Essa integração
-                permite processamento rápido das informações e envio automático
-                de alertas aos usuários, além de ferramentas para operadores e
-                administradores gerenciarem sensores, parâmetros de alerta e
-                dados históricos. O resultado é um sistema robusto e adaptável.
+                Esta solução de alerta de enchentes é acessível e fácil de
+                instalar, mesmo em comunidades remotas. Com uma interface
+                intuitiva, usuários comuns podem se cadastrar e receber alertas
+                personalizados via WhatsApp e Telegram, sem necessidade de
+                conhecimento técnico, aumentando a proteção coletiva.
               </p>
             </li>
           </ul>
         </div>
         <img
-          src="src/assets/imgs/perfectWorld.png"
-          alt="mundo com objetivos atingidos"
+          src="src/assets/imgs/menina na enchente.jpg"
+          alt="menina na enchente"
           id="mundoPerfeitoImg"
         />
       </section>
@@ -277,39 +214,30 @@
             <div class="pessoa-card">
               <img
                 src="src/assets/imgs/Vinícola Agnello enchente.png"
-                alt="Enchente Jullius Agnello"
+                alt="homem que perdeu a vinícola na enchente"
               />
               <br /><br />
               <h3>Jullius Agnello</h3>
               <p>
-                O Sr. Julio tem 62 anos e mora em Franco da Rocha com sua
-                esposa, Viviane, e seu filho, João. É muito conhecido na região
-                por seu trabalho acolhendo e ajudando animais abandonados. Vive
-                em uma área de risco, onde as enchentes são frequentes, e,
-                infelizmente, já perdeu sua casa em um desses desastres devido à
-                ausência de alertas eficientes. Possui pouco conhecimento em
-                tecnologia e utiliza apenas redes muito populares, como o
-                WhatsApp, para se comunicar.
+                Julio, 62, mora em Franco da Rocha com a família e é conhecido
+                por acolher animais. Reside em área de risco de enchentes e já
+                perdeu sua casa por falta de alertas. Ele tem pouco conhecimento
+                em tecnologia, usando apenas WhatsApp para comunicação.
               </p>
             </div>
 
             <div class="pessoa-card">
               <img
-                src="src/assets/imgs/familia Lucia enchente.png"
-                alt="Familia Lucia Enchente"
+                src="src/assets/imgs/dona lucia.jpg "
+                alt="dona Lucia na enchente"
               />
               <br /><br />
-              <h3>Lúcia e sua família</h3>
+              <h3>Para quem ?</h3>
               <p>
-                Lúcia dos Santos tem 58 anos e mora em Franco da Rocha com seu
-                marido, Carlos, de 60 anos, e a neta Beatriz, de 10. Trabalha
-                como cozinheira autônoma e é conhecida na vizinhança por sua
-                comida caseira. Em 2022, perdeu tudo em uma enchente e, desde
-                então, vive com medo sempre que chove forte. Mora em área de
-                risco e tem pouco conhecimento em tecnologia, usando apenas o
-                WhatsApp e, às vezes, o YouTube com ajuda da neta. Precisa de
-                alertas simples e acessíveis, que funcionem mesmo com pouca
-                internet, para conseguir se preparar e proteger sua família.
+                Nosso público-alvo são famílias em áreas de risco de enchentes,
+                como Franco da Rocha, com pouco conhecimento tecnológico, que
+                necessitam de alertas simples e acessíveis via plataformas
+                populares como WhatsApp para proteger suas vidas e bens.
               </p>
             </div>
           </div>
@@ -377,54 +305,33 @@
 
         <section id="diaAdia-section">
           <div class="container-diaAdia">
-            <h1>Dia a Dia</h1>
-
+            
             <div class="content-wrapper">
               <div class="text-column">
+                <h1>Dia a Dia</h1>
                 <p>
-                  Antes da nossa solução, muitas famílias enfrentavam o risco
-                  das enchentes de forma imprevisível, sem informações claras ou
-                  alertas antecipados. Essa incerteza gerava medo, prejuízos
-                  materiais e até perdas humanas, além de dificuldades na tomada
-                  de decisões rápidas durante emergências.
+                  Nossa solução transforma a resposta a enchentes de improvisada
+                  para coordenada e preventiva, aumentando a segurança e a
+                  resiliência das comunidades. Operadores podem visualizar
+                  sensores e alertas em tempo real, facilitando a gestão de
+                  riscos e a tomada de decisões rápidas. Usuários recebem
+                  alertas personalizados diretamente no celular, com informações
+                  claras e atualizadas, permitindo um planejamento e ações
+                  preventivas que minimizam impactos e protegem vidas.
                 </p>
 
                 <p>
-                  Com nosso sistema, o dia a dia das pessoas ganha mais
-                  segurança e tranquilidade. Usuários recebem alertas
-                  personalizados, diretamente no celular, indicando riscos em
-                  suas regiões com informações claras e atualizadas em tempo
-                  real. Isso permite planejamento e ações preventivas,
-                  minimizando impactos e protegendo vidas.
-                </p>
-
-                <p>
-                  Além disso, a funcionalidade de rotas de fuga seguras,
-                  acessível quando há emergência, ajuda a população a evacuar
-                  rapidamente, com caminhos otimizados e atualizados conforme as
-                  condições locais. Isso reduz o pânico e torna a resposta mais
-                  eficiente, tanto para indivíduos quanto para equipes de
-                  emergência.
-                </p>
-
-                <p>
-                  Para operadores e administradores, a visualização contínua do
-                  status dos sensores e alertas facilita a gestão dos riscos e a
-                  tomada de decisões rápidas, garantindo um sistema confiável e
-                  ágil. No cotidiano, isso significa respostas mais rápidas e
-                  comunicação integrada entre comunidade e autoridades.
-                </p>
-
-                <p>
-                  Em resumo, nossa solução transforma o enfrentamento das
-                  enchentes: do improviso e do risco à prevenção e à ação
-                  coordenada, impactando positivamente o dia a dia das pessoas e
-                  fortalecendo a resiliência das comunidades.
+                  Além disso, o sistema oferece rotas de fuga seguras e
+                  otimizadas para evacuação rápida, reduzindo o pânico e
+                  tornando a resposta mais eficiente para todos. A visualização
+                  contínua dos dados e a comunicação integrada entre comunidade
+                  e autoridades garantem um sistema confiável e ágil,
+                  fortalecendo a proteção coletiva.
                 </p>
               </div>
               <div class="image-column">
                 <img
-                  src="src/assets/imgs/evacuacao enchente.png"
+                  src="src/assets/imgs/meninos na enchente.jpg"
                   alt="evacuacao enchente"
                 />
               </div>
@@ -437,7 +344,7 @@
     <footer>
       <div id="detalhes">
         <div class="colaboradores">
-          <img src="src/assets/imgs/logo rodape.png" alt="" />
+          <img src="src/assets/imgs/logo rodape.png" alt="logo rodape" />
 
           <h1>Colaboradores</h1>
           <br />

@@ -332,6 +332,7 @@ section {
 }
 
 #textObjetivos {
+  margin-top: 100px;
   padding: 10px;
   text-align: left;
   flex: 1;
@@ -506,6 +507,7 @@ section {
 }
 
 .container-diaAdia {
+  margin-top: 20px;
   width: 100%;
   padding: 0;
 }
@@ -523,8 +525,10 @@ section {
 }
 
 .text-column {
+  margin-top: 50px;
   flex: 2;
   min-width: 280px;
+  max-width: 50%;
   padding: 10px;
 }
 
