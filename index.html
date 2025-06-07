@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HYDRO ALERT</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="src/assets/imgs/favico.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <a class="logo" href="index.html">HYDRO ALERT</a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul id="navSecao" class="nav-list">
+        <li><a href="#solucao-section">Solução</a></li>
+        <li><a href="#tecnologias-section">Tecnologias</a></li>
+        <li><a href="#objetivos-section">Objetivos</a></li>
+        <li><a href="#publico-alvo-section">Público-Alvo</a></li>
+        <li><a href="#beneficios-section">Benefícios</a></li>
+        <li><a href="#diaAdia-section">Dia a Dia</a></li>
+        <li class="theme-option-mobile">
+          <div class="theme-icons-wrapper" id="theme-icons-mobile">
+            <button class="theme-icon light" data-theme="light">☀️</button>
+            <button class="theme-icon dark" data-theme="dark">🌙</button>
+            <button class="theme-icon accessibility" data-theme="accessibility">
+              👓
+            </button>
+          </div>
+        </li>
+      </ul>
+      <div
+        class="theme-icons-wrapper theme-option-desktop"
+        id="theme-icons-desktop"
+      >
+        <button class="theme-icon light" data-theme="light">☀️</button>
+        <button class="theme-icon dark" data-theme="dark">🌙</button>
+        <button class="theme-icon accessibility" data-theme="accessibility">
+          👓
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <section id="solucao-section">
+        <div class="secaoCenter">
+          <h1>Solução</h1>
+          <p>
+            Este sistema monitora e alerta sobre enchentes com sensores e IA.
+            Ele prevê riscos usando dados de rios e chuvas. Alertas automáticos
+            são enviados por Telegram e WhatsApp. O sistema sugere rotas de fuga
+            seguras, otimizadas para evacuação rápida. Uma interface visual
+            permite acompanhar em tempo real sensores, previsões e alertas.
+          </p>
+
+          <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn" id="radio1" />
+              <input type="radio" name="radio-btn" id="radio2" />
+              <input type="radio" name="radio-btn" id="radio3" />
+
+              <div class="slide first">
+                <img
+                  src="src/assets/imgs/menino na enchente.jpg"
+                  alt="menino na enchente"
+                />
+              </div>
+
+              <div class="slide">
+                <img
+                  src="src/assets/imgs/fundoBody.jpg"
+                  alt="pessoas em rua alagada"
+                />
+              </div>
+
+              <div class="slide">
+                <img
+                  src="src/assets/imgs/ciade em enchente.jpg"
+                  alt="cidade em enchente"
+                />
+              </div>
+            </div>
+
+            <div class="manual-navigation">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tecnologias-section">
+        <div class="secaoCenter">
+          <h1>Tecnologias</h1>
+          <p>
+            Para prevenir enchentes, usamos hardware como sensores ultrassônicos
+            para nível da água e DHT22 para temperatura/umidade. Buzzers e LEDs
+            sinalizam alertas sonoros e visuais. Softwares com Python gerenciam
+            sensores e usuários. Um menu interativo permite configurar o sistema
+            e ativar sensores para dados em tempo real, garantindo segurança.
+          </p>
+        </div>
+
+        <div class="image-container">
+          <div class="item-image">
+            <img
+              src="src/assets/imgs/previsao com ia.png"
+              alt="previsao do tempo com IA"
+            /><br />
+            <h3>Inteligência Artificial</h3>
+            <p>
+              A Hydro Alert IA pode prever enchentes analisando dados históricos
+              e em tempo real, como níveis de rios, chuvas e condições do solo.
+              Isso permite alertas antecipados e melhor prevenção de desastres,
+              protegendo vidas e propriedades.
+            </p>
+          </div>
+
+          <div class="item-image">
+            <img
+              src="src/assets/imgs/previsao com sensores.png"
+              alt="previsao de enchente com sensores"
+            /><br />
+            <h3>Sensores</h3>
+            <p>
+              Sensores físicos como ultrassônicos (nível da água), DHT22
+              (temperatura/umidade) e pluviômetros monitoram o ambiente. Seus
+              dados são cruciais para prever enchentes e emitir alertas
+              precisos, protegendo comunidades.
+            </p>
+          </div>
+
+          <div class="item-image">
+            <img
+              src="src/assets/imgs/integracao api.png"
+              alt="sistema de integração de API's"
+            /><br />
+            <h3>API's</h3>
+            <p>
+              A previsão do tempo aprimorada integra múltiplas APIs, combinando
+              dados de diversas fontes para maior precisão. Isso oferece
+              informações detalhadas sobre temperatura, umidade e chuvas,
+              crucial para o planejamento e a segurança.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="objetivos-section">
+        <div id="textObjetivos">
+          <h1>Objetivos</h1>
+          <br />
+
+          <ul id="listaResponsiva">
+            <li>
+              <h3>Prevenção de Desastres</h3>
+              <p>
+                Essa solução oferece alertas precisos de enchentes usando
+                sensores e IA para prever riscos. Ela ajuda comunidades a se
+                prepararem antecipadamente, evitando perdas e sugerindo rotas de
+                fuga seguras.
+              </p>
+            </li>
+
+            <li>
+              <h3>Monitoramento Contínuo</h3>
+              <p>
+                Este sistema coleta dados ambientais automaticamente (níveis de
+                rios, chuva, clima) para monitorar e prever enchentes. Ele
+                identifica riscos rapidamente, permitindo respostas imediatas e
+                fornecendo alertas em tempo real através de uma plataforma
+                digital.
+              </p>
+            </li>
+
+            <li>
+              <h3>Facilidade de Acesso</h3>
+              <p>
+                Esta solução de alerta de enchentes é acessível e fácil de
+                instalar, mesmo em comunidades remotas. Com uma interface
+                intuitiva, usuários comuns podem se cadastrar e receber alertas
+                personalizados via WhatsApp e Telegram, sem necessidade de
+                conhecimento técnico, aumentando a proteção coletiva.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <img
+          src="src/assets/imgs/menina na enchente.jpg"
+          alt="menina na enchente"
+          id="mundoPerfeitoImg"
+        />
+      </section>
+      <section id="publico-alvo-section">
+        <div class="container-PA">
+          <h1>Público-Alvo</h1>
+
+          <div class="container-pessoas">
+            <div class="pessoa-card">
+              <img
+                src="src/assets/imgs/Vinícola Agnello enchente.png"
+                alt="homem que perdeu a vinícola na enchente"
+              />
+              <br /><br />
+              <h3>Jullius Agnello</h3>
+              <p>
+                Julio, 62, mora em Franco da Rocha com a família e é conhecido
+                por acolher animais. Reside em área de risco de enchentes e já
+                perdeu sua casa por falta de alertas. Ele tem pouco conhecimento
+                em tecnologia, usando apenas WhatsApp para comunicação.
+              </p>
+            </div>
+
+            <div class="pessoa-card">
+              <img
+                src="src/assets/imgs/dona lucia.jpg "
+                alt="dona Lucia na enchente"
+              />
+              <br /><br />
+              <h3>Para quem ?</h3>
+              <p>
+                Nosso público-alvo são famílias em áreas de risco de enchentes,
+                como Franco da Rocha, com pouco conhecimento tecnológico, que
+                necessitam de alertas simples e acessíveis via plataformas
+                populares como WhatsApp para proteger suas vidas e bens.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+      </section>
+
+      <section id="beneficios-section">
+        <h1>Benefícios</h1>
+
+        <div class="beneficios-container">
+          <div class="beneficio-item">
+            <h3>Alerta em Tempo Real</h3>
+            <p>
+              Receba notificações instantâneas sobre riscos de enchentes na sua
+              região, permitindo ações rápidas e seguras para proteger você e
+              sua família.
+            </p>
+          </div>
+
+          <div class="beneficio-item">
+            <h3>Rotas de Fuga Seguras</h3>
+            <p>
+              Tenha acesso a mapas com rotas otimizadas para evacuação,
+              garantindo uma saída rápida e sem riscos em situações de
+              emergência.
+            </p>
+          </div>
+
+          <div class="beneficio-item">
+            <h3>Facilidade de Uso</h3>
+            <p>
+              Interface simples e acessível para todos os perfis de usuário, sem
+              necessidade de conhecimentos técnicos ou equipamentos especiais.
+            </p>
+          </div>
+
+          <div class="beneficio-item">
+            <h3>Engajamento Comunitário</h3>
+            <p>
+              Incentiva a participação ativa da população, fortalecendo a
+              prevenção coletiva e a colaboração entre cidadãos e órgãos de
+              defesa civil.
+            </p>
+          </div>
+
+          <div class="beneficio-item">
+            <h3>Monitoramento Contínuo</h3>
+            <p>
+              Dados ambientais coletados e analisados constantemente, garantindo
+              alertas precisos e atualizados em tempo real para todos os
+              usuários.
+            </p>
+          </div>
+
+          <div class="beneficio-item">
+            <h3>Gestão Inteligente</h3>
+            <p>
+              Ferramentas para administradores e operadores configurarem
+              parâmetros, gerenciarem sensores e gerarem relatórios para
+              aprimorar o sistema.
+            </p>
+          </div>
+        </div>
+
+        <section id="diaAdia-section">
+          <div class="container-diaAdia">
+            <div class="content-wrapper">
+              <div class="text-column">
+                <h1>Dia a Dia</h1>
+                <p>
+                  Nossa solução transforma a resposta a enchentes de improvisada
+                  para coordenada e preventiva, aumentando a segurança e a
+                  resiliência das comunidades. Operadores podem visualizar
+                  sensores e alertas em tempo real, facilitando a gestão de
+                  riscos e a tomada de decisões rápidas. Usuários recebem
+                  alertas personalizados diretamente no celular, com informações
+                  claras e atualizadas, permitindo um planejamento e ações
+                  preventivas que minimizam impactos e protegem vidas.
+                </p>
+
+                <p>
+                  Além disso, o sistema oferece rotas de fuga seguras e
+                  otimizadas para evacuação rápida, reduzindo o pânico e
+                  tornando a resposta mais eficiente para todos. A visualização
+                  contínua dos dados e a comunicação integrada entre comunidade
+                  e autoridades garantem um sistema confiável e ágil,
+                  fortalecendo a proteção coletiva.
+                </p>
+              </div>
+              <div class="image-column">
+                <img
+                  src="src/assets/imgs/meninos na enchente.jpg"
+                  alt="evacuacao enchente"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="quiz-section">
+          <div class="secaoCenter">
+            <h1>Quiz Hydro Alert</h1>
+            <div id="quiz-container">
+              <div id="quiz-questions"></div>
+              <button id="submit-quiz" class="botaoForms">Enviar</button>
+              <div id="quiz-results"></div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div id="detalhes">
+        <div class="colaboradores">
+          <img src="src/assets/imgs/logo rodape.png" alt="logo rodape" />
+
+          <h1>Colaboradores</h1>
+          <br />
+          <img
+            src="src/assets/imgs/LogotipoLinkedin.png"
+            alt="LogotipoLinkedin"
+          /><a
+            href="https://www.linkedin.com/in/fernandobellegarde/  "
+            target="_blank"
+          >
+            Fernando Bellegarde </a
+          ><br />
+          <img
+            src="src/assets/imgs/LogotipoLinkedin.png"
+            alt="LogotipoLinkedin"
+          /><a href="https://www.linkedin.com/in/rickkcastro/" target="_blank">
+            Henrique Castro </a
+          ><br />
+          <img
+            src="src/assets/imgs/LogotipoLinkedin.png"
+            alt="LogotipoLinkedin"
+          /><a
+            href="https://www.linkedin.com/in/ot%C3%A1vio-inaba-46379124a/"
+            target="_blank"
+          >
+            Otávio Inaba</a
+          >
+
+          <br /><br />
+          <img
+            src="src/assets/imgs/github-mark-white.png"
+            alt="Logotipo GitHub"
+          /><a href="https://github.com/fernandoBellegarde" target="_blank">
+            Fernando Bellegarde </a
+          ><br />
+          <img
+            src="src/assets/imgs/github-mark-white.png"
+            alt="Logotipo GitHub"
+          /><a href="https://github.com/RickkCastro" target="_blank">
+            Henrique Castro </a
+          ><br />
+          <img
+            src="src/assets/imgs/github-mark-white.png"
+            alt="Logotipo GitHub"
+          /><a href="https://github.com/Otaaviio" target="_blank">
+            Otávio Inaba</a
+          ><br />
+        </div>
+
+        <div class="contatoRodape">
+          <h1>Contato</h1>
+          <br />
+          <p>contato@hydroalert.com</p>
+          <br />
+          <p>(11) 99999-9999</p>
+          <p>(11) 99999-9999</p>
+          <br />
+
+          <h2>Acompanhe</h2>
+          <br />
+          <div id="logosRodape">
+            <a href="https://www.linkedin.com/feed/" target="_blank"
+              ><img
+                src="src/assets/imgs/linkedin-app-white-icon.png"
+                alt="logo linkedin"
+            /></a>
+            <a
+              href="https://www.instagram.com/explore/search/keyword/?q=%23enchentes"
+              target="_blank"
+              ><img
+                src="src/assets/imgs/ig-instagram-icon.png"
+                alt="logo instagram"
+            /></a>
+            <a
+              href="https://x.com/search?q=enchentes&src=typed_query"
+              target="_blank"
+              ><img src="src/assets/imgs/twitter-color-icon.png" alt="logo x"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="formulario">
+        <form id="form">
+          <h3>Deixe sua sugestão</h3>
+          <br />
+
+          <label for="nome">Nome:</label><br />
+          <input type="text" id="nome" name="nome" class="textArea" /><br />
+          <div id="erroNome" class="erro-msg"></div>
+
+          <label for="numero">Número:</label><br />
+          <input
+            type="text"
+            id="numero"
+            name="contato"
+            class="textArea"
+            placeholder="DDD XXXXXXXXXX"
+          /><br />
+          <div id="erroNumero" class="erro-msg"></div>
+
+          <label for="sugestao">Sugestão:</label><br />
+          <textarea
+            id="sugestao"
+            name="sugestao"
+            rows="5"
+            class="textArea"
+          ></textarea
+          ><br />
+          <div id="erroSugestao" class="erro-msg"></div>
+
+          <button type="submit" class="botaoForms">Enviar</button>
+          <div id="mensagemFinal"></div>
+        </form>
+      </div>
+    </footer>
+    <script src="src/js/app.js"></script>
+  </body>
+</html>
