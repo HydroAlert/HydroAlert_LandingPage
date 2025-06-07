@@ -44,6 +44,6 @@ https://hydroalert.github.io/HydroAlert_LandingPage/
 
 O projeto foi desenvolvido por:
 
-- [Otávio](https://github.com/Otaaviio) - RM565003
+- [Otávio Inaba](https://github.com/Otaaviio) - RM565003
 - [Henrique Castro de Matos](https://github.com/RickkCastro) - RM564560
 - [Fernando Bellegarde](https://github.com/fernandoBellegarde) - RM564169
